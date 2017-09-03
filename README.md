@@ -1,2 +1,1 @@
-This is JavaScript and jQuery where we can click on any button we want and make our own tone, with some amazing colourful and fading circles.
-Here, i have used JavaScript animations and some eventListeners to make it more amazing.
+This is JavaScript and jQuery where we can play with colours. If you are developer there is a common problem which you face in day to day developement life and that is remembering the correct RGB colours to make our application look beautiful. So, through this game you may nourish your skills and also you can be a master in RGB colours, which will help your work in developement easy.
