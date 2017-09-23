@@ -18,7 +18,8 @@ function init(){
 }
 
 function setupModeButtons(){
-	for(var i = 0; i < modeButtons.length; i++){
+	var len = modeButtons.length;
+	for(var i = 0; i < len; i++){
 		modeButtons[i].addEventListener("click", function(){
 			modeButtons[0].classList.remove("selected");
 			modeButtons[1].classList.remove("selected");
@@ -30,7 +31,8 @@ function setupModeButtons(){
 }
 
 function setupSquares(){
-	for(var i = 0; i < squares.length; i++){
+	var sqr = squares.length;
+	for(var i = 0; i < sqr; i++){
 	//add click listeners to squares
 		squares[i].addEventListener("click", function(){
 			//grab color of clicked square
