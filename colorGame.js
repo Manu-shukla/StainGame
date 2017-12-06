@@ -7,6 +7,11 @@ var messageDisplay = document.querySelector("#message");
 var h1 = document.querySelector("h1");
 var resetButton = document.querySelector("#reset");
 var modeButtons = document.querySelectorAll(".mode");
+var fileref = document.createElement("link");
+fileref.rel = "stylesheet";
+fileref.type = "text/css";
+fileref.href = "colorGame.css";
+document.getElementsByTagName("head")[0].appendChild(fileref)
 
 
 init();
